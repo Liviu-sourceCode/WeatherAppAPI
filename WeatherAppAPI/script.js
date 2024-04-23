@@ -1,4 +1,4 @@
-// Defineste funcția pentru a obtine datele meteo pentru orasul introdus
+// Defineste functia pentru a obtine datele meteo pentru orasul introdus
 async function getWeather() {
     try {
         const city = document.getElementById('cityInput').value;
