@@ -6,7 +6,7 @@ async function getWeather() {
         // Ascunde campul de informatii meteo initial
         document.getElementById('weatherInfo').style.display = 'none';
         
-        // Verifica dacă orasul a fost introdus
+        // Verifica daca orasul a fost introdus
         if (city.trim() !== '') {
             // Daca orasul a fost introdus, afiseaza campul de informatii meteo
             document.getElementById('weatherInfo').style.display = 'block';
