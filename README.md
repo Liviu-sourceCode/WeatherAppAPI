@@ -1,11 +1,22 @@
-# WeatherAppAPI
+# Weather App API
 
-Weather App API este un proiect web care se ocupa cu furnizarea datelor meteorologice in timp real prin intermediul unui API, datele fiind preluate si afisate in cadrul interfetei interactive pe baza orasului introdus de utilizator.
+## Project Overview
+**Weather App API** is a web project that provides real-time weather data through an API. The data is fetched and displayed on an interactive interface based on the city entered by the user.
 
-Caracteristici principale: Interfata de utilizator intuitiva pentru vizualizarea datelor despre starea meteo furnizate de catre API. Utilizatorul primeste informatiile esentiale despre conditiile meteorologice pe baza orasului introdus in caseta de text, ca urmare a actionarii butonului 'Get Weather'. Aplicatia trateaza si cazurile in care utilizatorul nu introduce niciun oras in caseta de text, orasul introdus este scris gresit sau nu exista, efectuand alerte cu mesaje specifice.
+## Main Features
+- **User Interface**: Intuitive interface for viewing weather data provided by the API.
+- **City Input**: Users can enter a city name in a text box and press the 'Get Weather' button to receive essential weather information.
+- **Error Handling**: The application handles cases where:
+  - No city is entered in the text box.
+  - The entered city name is misspelled.
+  - The city does not exist.
+  - Specific alerts and messages are displayed for each of these scenarios.
 
-Tehnologii folosite: HTML, CSS si JavaScript pentru dezvoltarea interfetei de utilizator. Application Programming Interface (API) pentru generarea datelor meteorologice.
-GitHub pentru gazduirea si versionarea codului.
+## Technologies Used
+- **Frontend**: HTML, CSS, and JavaScript for developing the user interface.
+- **API**: Utilized an Application Programming Interface (API) to generate and fetch weather data.
+- **Version Control**: GitHub for hosting and versioning the code.
 
-Acest proiect m-a ajutat sa inteleg ce este un API si cum il pot integra intr-o aplicatie web. Cu aceasta ocazie am realizat o aplicatie care furnizeaza informatii meteorologice, fapt ce m-a ajutat sa pun in practica cunostintele acumulate.
+## Learning Outcomes
+This project helped me understand what an API is and how to integrate it into a web application. By creating an application that provides weather information, I was able to put into practice the knowledge I have accumulated in web development and API integration.
 
